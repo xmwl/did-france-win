@@ -2,19 +2,26 @@
 body {
 	background: #344355;
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
 
 h2 {
 	font-size: 50px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 1px;
 }
 
 p {
   font-size: 20px;
-  padding: 0 68px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 940px) {
+	p {
+		padding: 0 68px;
+	}
 }
 
 .container {
@@ -25,12 +32,15 @@ header {
 	margin-top: 50px;
 }
 
-.seven.columns {
-	padding: 150px 0;
+@media (min-width: 940px) {
+	.seven.columns {
+		padding: 160px 0;
+	}
 }
 
 .iphone {
-	width: 100%;
+	/*width: 100%;*/
+	max-width: 300px;
 }
 
 .emoji {
