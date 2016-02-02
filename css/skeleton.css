@@ -48,7 +48,7 @@
     padding: 0; }
 }
 
-/* For devices larger than 550px */
+/* For devices larger than 940px */
 @media (min-width: 940px) {
   .container {
     width: 80%; }

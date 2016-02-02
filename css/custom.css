@@ -1,9 +1,18 @@
 /*Custom Styles*/
+
 body {
 	background: #344355;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+}
+
+.container {
+	max-width: 800px;
+}
+
+header {
+	margin-top: 50px;
 }
 
 h2 {
@@ -24,14 +33,6 @@ p {
 	}
 }
 
-.container {
-	max-width: 800px;
-}
-
-header {
-	margin-top: 50px;
-}
-
 @media (min-width: 940px) {
 	.seven.columns {
 		padding: 160px 0;
@@ -39,8 +40,7 @@ header {
 }
 
 .iphone {
-	/*width: 100%;*/
-	max-width: 300px;
+	max-width: 280px;
 }
 
 .emoji {
