@@ -26,11 +26,15 @@ header {
 }
 
 .seven.columns {
-	padding: 200px 0;
+	padding: 150px 0;
 }
 
 .iphone {
 	width: 100%;
+}
+
+.emoji {
+	font-size: 40px;
 }
 
 footer {
